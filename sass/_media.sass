@@ -1,0 +1,443 @@
+@media (max-width: 1200px)
+    .menu
+        &_item
+            padding-right: 20px
+        &_link
+            font-size: 13px
+    .promo
+        &_header
+            font-size: 50px
+    .reasons
+        &_block
+            align-items: flex-start
+        &_descr
+            width: 300px
+
+    .subheader
+        &_call, &_phone
+            text-align: right
+    .mobile
+        &_item
+            height: 254px
+            width: 330px
+            &_subtitle
+                font-size: 20px
+                text-align: center
+                font-weight: 400
+                line-height: 31px
+    .car
+        .day_each
+            display: none
+
+@media (max-width: 991px)
+    .menu
+        &_item
+            padding-right: 8px
+        &_link
+            font-size: 10px
+    .subheader
+        &_logo
+            img
+                width: 100%
+        &_official
+            font-size: 11px
+        &_phone
+            font-size: 18px
+        &_btn
+            margin-top: 21px
+            width: 100%
+            height: 40px
+    .promo
+        &_header
+            font-size: 40px
+        &_subheader
+            font-size: 30px
+    .reasons
+        &_block
+            flex-direction: column
+            align-items: center
+        &_round
+            margin-right: 0
+        &_descr
+            margin-top: 20px
+            width: 300px
+    
+    .mobile
+        &_item
+            display: flex
+            justify-content: center
+            height: 254px
+            width: 330px
+            &_subtitle
+                font-size: 20px
+                text-align: center
+                font-weight: 400
+                line-height: 31px
+    .footer
+        &_devider
+            width: 400px
+        &_nav
+            flex-direction: column
+            align-items: center
+            .footer_social
+                width: 100%
+                order: 2
+                margin-top: 20px
+                justify-content: center
+                font-size: 14px
+                a
+                    margin-left: 10px
+            .footer_main
+                width: 100%
+                order: 1
+                justify-content: space-around
+                &_support
+                    margin: 0 20px
+                    text-align: space-around
+                    a
+                        font-size: 14px
+                &_city
+                    margin: 0 20px
+                    a
+                        font-size: 18px
+                &_lang_link
+                    font-size: 12px
+
+            .footer_app
+                width: 100%
+                order: 3
+                margin-top: 20px
+                justify-content: center
+                padding-right: 0
+        &_main
+            width: 100%
+            &_city
+                &_link
+                    font-size: 14px
+    
+    .car
+        .day_each
+            display: none
+            
+@media (max-width: 767px)
+    .menu
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        position: fixed
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0, 0, 0, .8)
+        transition: 0.6s all
+        &_active
+            left: 0
+        &_item
+            padding-right: 0
+            border: none
+            margin: 10px 0
+        &_link
+            font-size: 20px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        &_phone
+            display: block
+            margin-top: 10px
+            color: #fff
+            font-size: 16px
+            font-weight: 400
+            text-transform: uppercase
+            text-align: center
+        &_btn
+            display: block
+            margin: 0 auto
+            margin-top: 10px
+            width: 200px
+            height: 40px
+    .promo
+        &_header
+            font-size: 40px
+            line-height: 45px
+        .title
+        font-size: 16px
+        margin-top: 0px
+        line-height: 16px
+
+    .mobile
+        .title
+            font-size: 18px
+        .subtitle
+            margin-top: 11px
+            font-size: 14px
+        &_item
+            height: 254px
+            width: 300px
+            &_subtitle
+                font-size: 22px
+                text-align: center
+                font-weight: 400
+                line-height: 31px
+    .car
+        min-height: 391px
+        padding-top: 25px
+        &_uberx
+            &_img
+                height: 183px
+                width: 400px
+        &_prius
+            top: -70px
+            img
+                height: 229px
+                width: 500px
+    .car
+        min-height: 391px
+        padding-top: 25px
+        &_uberx
+            &_img
+                height: 183px
+                width: 400px
+        .title, .subtitle
+            display: block
+        &_uberx
+            &_prius
+                top: -40px
+                img
+                    height: 229px
+                    width: 500px 
+
+    .day
+        min-height: 71px
+        &_each
+            margin-top: 160px
+    
+    .footer
+        &_devider
+            width: 253px
+        &_nav
+            flex-direction: column
+            align-items: center
+            .footer_social
+                width: 100%
+                order: 2
+                margin-top: 20px
+                justify-content: center
+                font-size: 12px
+                a
+                    margin-left: 7px
+            .footer_main
+                width: 100%
+                order: 1
+                justify-content: space-around
+                &_support
+                    margin: 0 20px
+                    text-align: space-around
+                    a
+                        font-size: 9px
+                &_city
+                    margin: 0 20px
+                    a
+                        font-size: 12px
+
+            .footer_app
+                width: 100%
+                order: 3
+                margin-top: 20px
+                justify-content: center
+                padding-right: 0
+        &_main
+            width: 100%
+            &_city
+                &_link
+                    font-size: 14px
+
+    .car
+        .day_each
+            display: none
+    
+
+@media (max-width: 575px)
+    nav
+        height: 30px
+    header
+        height: 30px
+    .subheader
+        height: 60px
+        top: 30px
+        &_official
+            display: none
+        &_logo
+            margin-top: 16px
+        &_phone
+            text-transform: uppercase
+            font-size: 12px
+            font-weight: 400
+            margin-top: 11px
+        &_btn
+           width: 110px
+           height: 22px 
+           font-size: 9px
+           margin-top: 6px
+    .promo
+        min-height: 400px
+        padding: 93px 0 35px 0
+        &_descr
+            display: none
+        &_header
+            font-size: 30px
+            padding: 0 24px
+            line-height: 35px
+        &_subheader
+            font-size: 20px
+            margin-top: 33px
+            padding: 0 10px
+            line-height: 30px
+        &_btn
+            width: 210px
+            height: 50px
+            margin-top: 72px
+    .menu
+        width: 85%
+        &_item
+            width: 100%
+            text-align: center
+            padding: 5px 0
+        &_link
+            display: block
+            text-align: center
+
+    .reasons
+        padding: 22px 0 36px 0
+        &_block
+            margin-top: 26px
+        &_round
+            width: 100px
+            height: 100px
+        &_descr
+            width: 100%
+            margin-top: 27px
+        &_subtitle
+            font-size: 16px
+
+    .title
+        font-size: 16px
+        margin-top: 15px
+        line-height: 16px
+
+    .mobile
+        .subtitle
+            margin-top: 11px
+            font-size: 14px
+        &_item
+            height: 254px
+            width: 290px
+            &_subtitle
+                font-size: 18px
+                text-align: center
+                font-weight: 400
+                line-height: 31px
+    .car
+        min-height: 391px
+        padding-top: 25px
+        &_uberx
+            &_img
+                height: 114px
+                width: 250px
+        .title, .subtitle
+            display: none
+        &_uberx
+            &_prius
+                top: -70px
+                img
+                    height: 137px
+                    width: 300px 
+    .car
+        .day_each
+            display: block
+            margin-top: 100px 
+            color: #ffffff
+            font-size: 17px
+
+    .day
+        display: none 
+
+    .require
+        padding: 25px 0 0 0 
+        &_descr
+            font-size: 14px
+
+    .world
+        padding: 25px 0 30px 0   
+        min-height: 360px
+        &_all
+            margin-top: 206px
+
+    .footer
+        &_devider
+            width: 253px
+        &_nav
+            flex-direction: column
+            align-items: center
+            .footer_social
+                width: 100%
+                order: 2
+                margin-top: 20px
+                justify-content: center
+                font-size: 12px
+                a
+                    margin-left: 7px
+            .footer_main
+                width: 100%
+                order: 1
+                justify-content: space-around
+                &_support
+                    margin: 0 20px
+                    text-align: space-around
+                    a
+                        font-size: 9px
+                &_city
+                    margin: 0 20px
+                    a
+                        font-size: 12px
+
+            .footer_app
+                width: 100%
+                order: 3
+                margin-top: 20px
+                justify-content: space-around
+                padding-right: 0
+                a
+                    margin-left: 0
+        &_main
+            width: 100%
+            &_city
+                &_link
+                    font-size: 14px
